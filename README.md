@@ -129,5 +129,36 @@ In PS open fold you just downloaded —> in PS script type ‘Set-ExecutionPolic
 To run and pull in the names from PS you need to cd c:\users\a-anwachukwu\desktop\AD_PS-master
 Hit enter —> ls —> play button 
 
+![Image 11-11-24 at 12 33 PM](https://github.com/user-attachments/assets/0e6e0e83-f5b6-4d82-98ec-5b402d52298b)
+As you can see all the users being created and you can find users
+![Image 11-11-24 at 12 35 PM](https://github.com/user-attachments/assets/a225b20a-f3d1-45d6-a4d9-13bd26febf16)
+
+Let’s create out window 10 client in virtualbox hit new
+![Image 11-11-24 at 12 38 PM](https://github.com/user-attachments/assets/42c95bab-4e4b-45b4-ab15-6b4c85778ded)
+Do everything you did while making the DC in the beginning. 
+For network change NAT to internal network
+
+Open your windows client —> add windows iso to VM
+![Image 11-11-24 at 12 52 PM](https://github.com/user-attachments/assets/6f8e5e4d-6f2e-40a3-8ec4-c9b609117144)
+Next —> install —> I don’t have a product key —> windows 10 Pro —> next —> I accept & next —> custom —> next —> let windows install —> click United States —> yes
+Yes —> skip —> I  don’t have internet —> continue with limited setup
+
+![Image 11-12-24 at 12 07 PM](https://github.com/user-attachments/assets/a0eb4b5d-32f9-48a7-9c5d-1ba58fd82829)
+Uncheck all the privacy settings —> accept —> not now and your windows screen should load.
+
+Once in windows open command prompt —> Ipconfig —> shows you the IPv4, IPv6, & Default Gateway
+Ping www.google —> shows you the internet connection is working
+Ping mydomian.com —> ping responds
+
+![Image 11-12-24 at 12 37 PM](https://github.com/user-attachments/assets/b388bfb4-2e42-4661-aa47-c1704d569d8e)
+Go to settings —> about —> scroll all the way down —> rename this PC (advanced) —> change —> name it Windows10Client —> click domain —> name it my domain.com —> okay
+
+![Image 11-12-24 at 1 02 PM](https://github.com/user-attachments/assets/e5207e80-b610-4916-985c-b974ad812426)
+use your domain admin account —> okay —> okay —> close —> restart
+
+
+![Image 11-12-24 at 1 57 PM](https://github.com/user-attachments/assets/400d682f-f3bc-4740-b221-9ff5a936eb52)
+Now you can use your users account on the Window 10 Client Computer to sign in as a user
+
 
 
