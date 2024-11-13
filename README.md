@@ -2,7 +2,7 @@
 
 In this lab, we will be setting up a Basic Home Lab Running Active Directory using VirtualBox | Add Users w/PowerShell
 
-![image](https://github.com/user-attachments/assets/17d9c1e6-74fb-4403-9e8c-85a0c0dedb70)
+![image](https://github.com/user-attachments/assets/ffaaa4aa-4078-49c6-8c2c-cd2c00f19383)
 
 
 Let's Start off with downloading virtualbox from https://www.virtualbox.org/wiki/Downloads
